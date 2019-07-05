@@ -79,12 +79,12 @@ int main(){
  	
   do{
 	
- 	printf("Em que posso te ajudar:\na)HistÛria\nb)Jogos\nc)Unreal Engine\nd)Encerrar\n");
+ 	printf("Em que posso te ajudar:\na)Hist√≥ria\nb)Jogos\nc)Unreal Engine\nd)Encerrar\n");
  	 gets(resposta);
 	  printf("\n\n"); 
  	  if(strcmp(resposta,"a")==0 || strcmp(resposta,"Historia")==0 || strcmp(resposta,"historia")==0){
  	  	system("color F0");
-       printf("\nVocÍ quer saber sobre como a empresa surgiu ?\na)sim\nb)n„o\n");
+       printf("\nVoc√™ quer saber sobre como a empresa surgiu ?\na)sim\nb)n√£o\n");
         gets(historia1);
          if(strstr(historia1,"a")!=0 || strstr(historia1,"sim")!=0){
          	
@@ -162,7 +162,7 @@ int main(){
 	      	
 		 }
 		 
-		 printf("vocÍ quer saber qual era o nome da empresa e o motivo que a empresa mudou o nome?\na)sim\nb)n„o\n");
+		 printf("voc√™ quer saber qual era o nome da empresa e o motivo que a empresa mudou o nome?\na)sim\nb)n√£o\n");
 		  gets(historia2);
 		 	if(strstr(historia2,"a")!=0 || strstr(historia2,"sim")!=0 || strstr(historia2,"s")!=0 || strstr(historia2,"S")!=0){
 		 		
@@ -186,7 +186,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap4[e][f]==2){
-			 printf("em 1991 a empresa se chamava de Potomac Computer System e em 1992, \n\to nome da empresa mudou para Epic MegaGemes para fazer a empresa \n\tparecer grande,mesmo sem funcion·rios ou escritÛrios.\n");
+			 printf("em 1991 a empresa se chamava de Potomac Computer System e em 1992, \n\to nome da empresa mudou para Epic MegaGemes para fazer a empresa \n\tparecer grande,mesmo sem funcion√°rios ou escrit√≥rios.\n");
 		 } 	
          	  else if(tilemap4[e][f]==3){
          	  	printf("\t");
@@ -202,7 +202,7 @@ int main(){
 		 }	
 		 		
 			 }
-		 	else if(strstr(historia2,"b")!=0 || strstr(historia2,"n")!=0 || strstr(historia2,"n„o")!=0){
+		 	else if(strstr(historia2,"b")!=0 || strstr(historia2,"n")!=0 || strstr(historia2,"n√£o")!=0){
 		 		
 		 	 int e,f;
          	int tilemap4[height][width]={
@@ -241,7 +241,7 @@ int main(){
 		 		
 	}
 			 
-		 printf("VocÍ quer saber qual foi o primeiro jogo da empresa?\na)sim\nb)n„o\n");
+		 printf("Voc√™ quer saber qual foi o primeiro jogo da empresa?\na)sim\nb)n√£o\n");
 		  gets(historia3);
 		    if(strstr(historia3,"sim")!=0 || strstr(historia3,"a")!=0){
 		    	
@@ -265,7 +265,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap5[g][h]==2){
-			    printf("No mesmo ano em que a empresa foi criada, Sweeney lanÁou ZZT, que e \n\tum jogo de aventura em que vocÍ da tiros em animais de um zoolÛgico.\n");
+			    printf("No mesmo ano em que a empresa foi criada, Sweeney lan√ßou ZZT, que e \n\tum jogo de aventura em que voc√™ da tiros em animais de um zool√≥gico.\n");
 		 } 	
          	  else if(tilemap5[g][h]==3){
          	  	printf("\t");
@@ -282,7 +282,7 @@ int main(){
 		    	
 }	 
 			 
-			else if(strstr(historia3,"b")!=0 || strstr(historia3,"n")!=0 || strstr(historia3,"n„o")!=0){
+			else if(strstr(historia3,"b")!=0 || strstr(historia3,"n")!=0 || strstr(historia3,"n√£o")!=0){
 				
 			 int l,m;
          	int tilemap6[height][width]={
@@ -320,7 +320,7 @@ int main(){
 		 }	
 				} 
 			 
-		printf("vocÍ quer saber sobre os jogos feitos pela Epic quando o nome era Epic MegaGames ?:\na)sim\nb)n‚o\n");
+		printf("voc√™ quer saber sobre os jogos feitos pela Epic quando o nome era Epic MegaGames ?:\na)sim\nb)n√¢o\n");
 		 gets(historia4);
 		  if(strstr(historia4,"sim")!=0 || strstr(historia4,"a")!=0){
 		  	
@@ -344,7 +344,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap7[n][o]==2){
-			    printf("\tEm 1992 a empresa continuou fazendo jogos em 2d, \n\t\ttipo Jill of The Jungle e Jazz Jackrabit, \n\t\talÈm de pegar tÌtulos conhecidos \n\t\te acrescentar seu nome (tipo Epic Pinball)\n");
+			    printf("\tEm 1992 a empresa continuou fazendo jogos em 2d, \n\t\ttipo Jill of The Jungle e Jazz Jackrabit, \n\t\tal√©m de pegar t√≠tulos conhecidos \n\t\te acrescentar seu nome (tipo Epic Pinball)\n");
 		 } 	
          	  else if(tilemap7[n][o]==3){
          	  	printf("\t");
@@ -361,7 +361,7 @@ int main(){
 		  	
 }	 
 		  //consertar o n o
-		  else if(strstr(historia4,"n")!=0 || strstr(historia4,"b")!=0 || strstr(historia4,"n„o")!=0){
+		  else if(strstr(historia4,"n")!=0 || strstr(historia4,"b")!=0 || strstr(historia4,"n√£o")!=0){
 		  	
 		  	int n,o;
          	int tilemap7[height][width]={
@@ -472,7 +472,7 @@ int main(){
 					printf("\n");	
 				   }
  	 	   	
- 	 	   	  printf("quer saber o ano e o jogo fortnite lanÁou?:\na)sim\nb)n„o\n");
+ 	 	   	  printf("quer saber o ano e o jogo fortnite lan√ßou?:\na)sim\nb)n√£o\n");
  	 	   	   gets(fortnite);
  	 	   if(strstr(fortnite,"sim")!=0 || strstr(fortnite,"a")!=0){
  	 	   	 
@@ -496,7 +496,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap8[p][q]==2){
-			    printf("Fortnite È um jogo feito pela Epic Games e foi lanÁado em 2017\n");
+			    printf("Fortnite √© um jogo feito pela Epic Games e foi lan√ßado em 2017\n");
 		 } 	
          	  else if(tilemap8[p][q]==3){
          	  	printf("\t");
@@ -553,12 +553,12 @@ int main(){
 		  
 	      }
 
- 	 	   printf("Quer que eu fale sobre o jogo Fortnite?\na)sim\nb)n„o\n");
+ 	 	   printf("Quer que eu fale sobre o jogo Fortnite?\na)sim\nb)n√£o\n");
 			 gets(fortnite2);
 			  printf("\n\n");
 		   if(strstr(fortnite2,"sim")!=0 || strstr(fortnite2,"a")!=0){
 	
-		   	 printf("O Fortnite È um jogo que tem 3 modos para jogar. Digite qual modo vocÍ quer que eu fale:\na)Save the world\nb)Battle Royale\n");
+		   	 printf("O Fortnite √© um jogo que tem 3 modos para jogar. Digite qual modo voc√™ quer que eu fale:\na)Save the world\nb)Battle Royale\n");
 		   	  gets(fortnite3);
 		   if(strstr(fortnite3,"modo save the world")!=0 || strstr(fortnite3,"save the world")!=0 || strstr(fortnite3,"a")!=0){
 		   	
@@ -582,7 +582,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap9[r][s]==2){
-			    printf("\tO modo save the world È o modo PvE do jogo \n\t\tque È quando a pessoa joga contra a m·quina.\n");
+			    printf("\tO modo save the world √© o modo PvE do jogo \n\t\tque √© quando a pessoa joga contra a m√°quina.\n");
 		 } 	
          	  else if(tilemap9[r][s]==3){
          	  	printf("\t");
@@ -621,7 +621,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap10[t][u]==2){
-			    printf("O battle Royale È o modo mais famoso do jogo, esse È um modo multiplayer que mistura os elementos de sobrevivÍncia, exploraÁ„o, e eliminaÁ„o do jogo. Com duas semanas apÛs o lanÁamento, o modo Battle Royale de Fortnite j· contava com dez milhıes de jogadores, fazendo com que a Epic dividisse as equipes respons·veis pelos jogos em duas, a fim de dar um suporte melhor para seus jogadores.\n");
+			    printf("O battle Royale √© o modo mais famoso do jogo, esse √© um modo multiplayer que mistura os elementos de sobreviv√™ncia, explora√ß√£o, e elimina√ß√£o do jogo. Com duas semanas ap√≥s o lan√ßamento, o modo Battle Royale de Fortnite j√° contava com dez milh√µes de jogadores, fazendo com que a Epic dividisse as equipes respons√°veis pelos jogos em duas, a fim de dar um suporte melhor para seus jogadores.\n");
 		 } 	
          	  else if(tilemap10[t][u]==3){
          	  	printf("\t");
@@ -678,7 +678,7 @@ int main(){
 		 }
 	  }
 		  	
- 	       printf("quer saber sobre os prÍmios que o jogo Fortnite concorreu?:\na)sim\nb)n„o\n");
+ 	       printf("quer saber sobre os pr√™mios que o jogo Fortnite concorreu?:\na)sim\nb)n√£o\n");
  	        gets(fortnite4);
             if(strstr(fortnite4,"sim")!=0 || strstr(fortnite4,"a")!=0 || strstr(fortnite4,"s")!=0){
             	
@@ -702,7 +702,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap11[v][w]==2){
-			    printf("Em 2018, Fortnite concorreu ao prÍmio de melhor multiplayer no \n\tThe Games Awards 2017. N„o ganhou porÈm, sÛ de ser nomeado ja È \n\tum feito e tanto.\n\tEm 2018, Fortnite venceu: Webby Awards, como Melhor jogo \n\tmultiplayer escolhido pelo p˙blico; Game Critics Awards, \n\tcomo Melhor jogo multiplayer da atualidade; e o Teen Choice \n\tAwards, como melhor jogo escolhido pelo p˙blico.\n");
+			    printf("Em 2018, Fortnite concorreu ao pr√™mio de melhor multiplayer no \n\tThe Games Awards 2017. N√£o ganhou por√©m, s√≥ de ser nomeado ja √© \n\tum feito e tanto.\n\tEm 2018, Fortnite venceu: Webby Awards, como Melhor jogo \n\tmultiplayer escolhido pelo p√∫blico; Game Critics Awards, \n\tcomo Melhor jogo multiplayer da atualidade; e o Teen Choice \n\tAwards, como melhor jogo escolhido pelo p√∫blico.\n");
 		 } 	
          	  else if(tilemap11[v][w]==3){
          	  	printf("\t");
@@ -719,7 +719,7 @@ int main(){
             	
 }	 
             
-			else if(strstr(fortnite4,"n")!=0 || strstr(fortnite4,"b")!=0 || strstr(fortnite4,"n„o")!=0){
+			else if(strstr(fortnite4,"n")!=0 || strstr(fortnite4,"b")!=0 || strstr(fortnite4,"n√£o")!=0){
 				
 			 int x,y;
          	int tilemap12[height][width]={
@@ -809,7 +809,7 @@ int main(){
 					printf("\n");	
 				   }
 	 	  	       
-				   printf("VoÁÍ quer saber sobre qual tipo de jogo Gears of war È?:\na)sim\nb)n„o\n");
+				   printf("Vo√ß√™ quer saber sobre qual tipo de jogo Gears of war √©?:\na)sim\nb)n√£o\n");
 	 	  	     gets(gow);
 	 	  	 if(strstr(gow,"sim")!=0 || strstr(gow,"a")!=0){
 	 	  	 	
@@ -833,7 +833,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap13[z][a2]==2){
-			   printf("\tGears of War È um jogo de terceira pessoa");
+			   printf("\tGears of War √© um jogo de terceira pessoa");
 		 } 	
          	  else if(tilemap13[z][a2]==3){
          	  	printf("\t");
@@ -889,7 +889,7 @@ int main(){
 			 		
 	}    
 	 	  	 
-			 printf("VoÁÍ gostaria de saber sobre a histÛria de Gears of War?:\na)sim\nb)n„o\n");
+			 printf("Vo√ß√™ gostaria de saber sobre a hist√≥ria de Gears of War?:\na)sim\nb)n√£o\n");
 			  gets(gow2);
 			 if(strstr(gow2,"sim")!=0 || strstr(gow2,"a")!=0){
 			 	
@@ -913,7 +913,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap15[d2][e2]==2){
-			    	printf("A sÈrie foca no conflito entre a humanidade, os reptilianos humanoides \n\tsubterr‚neos conhecidos como Locust Horde, e os seus homÛlogos \n\tmodificados, os Lambent.\n");
+			    	printf("A s√©rie foca no conflito entre a humanidade, os reptilianos humanoides \n\tsubterr√¢neos conhecidos como Locust Horde, e os seus hom√≥logos \n\tmodificados, os Lambent.\n");
 		 } 	
          	  else if(tilemap15[d2][e2]==3){
          	  	printf("\t");
@@ -930,7 +930,7 @@ int main(){
 			
 } 	    
 	 	  	     
-	 	  	 else if(strstr(gow2,"n")!=0 || strstr(gow2,"b")!=0 || strstr(gow2,"n„o")!=0){
+	 	  	 else if(strstr(gow2,"n")!=0 || strstr(gow2,"b")!=0 || strstr(gow2,"n√£o")!=0){
 	 	  	 	
 	 	  	 	int f2,g2;
          	int tilemap16[height][width]={
@@ -969,11 +969,11 @@ int main(){
 	 	
 	}    
 	 	  	     
-	 	  	 printf("vocÍ j· participou de algum torneio de Gears of War?:\na)Gears pro circuit\nb)Pax East Gears of War tournament\nc)Nunca participei\n");    
+	 	  	 printf("voc√™ j√° participou de algum torneio de Gears of War?:\na)Gears pro circuit\nb)Pax East Gears of War tournament\nc)Nunca participei\n");    
 	 	  	   gets(gow3);
 	 	  	   printf("\n\n");
 				if(strstr(gow3,"a")!=0 || strstr(gow3,"gears pro circuit")!=0){
-					printf("Em que lugar voÁe ficou?:\na)primeiro lugar\nb)segundo lugar\nc)terceiro lugar\nd)ultimo lugar\n");
+					printf("Em que lugar vo√ße ficou?:\na)primeiro lugar\nb)segundo lugar\nc)terceiro lugar\nd)ultimo lugar\n");
 					 gets(gow4);
 					  if(strstr(gow4,"a")!=0 || strstr(gow4,"primeiro lugar")!=0){
 					  	
@@ -997,7 +997,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap17[h2][i2]==2){
-			    	printf("\t\t\tparabÈns\n");
+			    	printf("\t\t\tparab√©ns\n");
 		 } 	
          	  else if(tilemap17[h2][i2]==3){
          	  	printf("\t");
@@ -1036,7 +1036,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap18[j2][k2]==2){
-			    	printf("\t\t\tque Ûtimo\n");
+			    	printf("\t\t\tque √≥timo\n");
 		 } 	
          	  else if(tilemap18[j2][k2]==3){
          	  	printf("\t");
@@ -1090,7 +1090,7 @@ int main(){
 		 }
 					  	
 }
-					  else if(strstr(gow4,"d")!=0 || strstr(gow4,"˙ltimo lugar")!=0){
+					  else if(strstr(gow4,"d")!=0 || strstr(gow4,"√∫ltimo lugar")!=0){
 					  	
 					  	int n2,o2;
          	int tilemap20[height][width]={
@@ -1112,7 +1112,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap20[n2][o2]==2){
-			    	printf("\t\t\tisso n„o È bom");
+			    	printf("\t\t\tisso n√£o √© bom");
 		 } 	
          	  else if(tilemap20[n2][o2]==3){
          	  	printf("\t");
@@ -1130,7 +1130,7 @@ int main(){
 }
 				}
 				else if(strstr(gow3,"b")!=0 || strstr(gow3,"pax east gears of war tournament")!=0){
-					printf("Em que lugar voÁe ficou?:a)primeiro lugar\nb)segundo lugar\nc)terceiro lugar\nd)ultimo lugar\n");
+					printf("Em que lugar vo√ße ficou?:a)primeiro lugar\nb)segundo lugar\nc)terceiro lugar\nd)ultimo lugar\n");
 					 gets(gow5);
 					  if(strstr(gow5,"a")!=0 || strstr(gow5,"primeiro lugar")!=0){
 					  	
@@ -1154,7 +1154,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap21[p2][q2]==2){
-			    	printf("\t\t\tparabÈns\n");
+			    	printf("\t\t\tparab√©ns\n");
 		 } 	
          	  else if(tilemap21[p2][q2]==3){
          	  	printf("\t");
@@ -1192,7 +1192,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap22[r2][s2]==2){
-			    printf("\t\t\tque Ûtimo\n");
+			    printf("\t\t\tque √≥timo\n");
 		 } 	
          	  else if(tilemap22[r2][s2]==3){
          	  	printf("\t");
@@ -1246,7 +1246,7 @@ int main(){
 		 }	
 					  	
 					  }
-					  else if(strstr(gow5,"d")!=0 || strstr(gow5,"˙ltimo lugar")!=0){
+					  else if(strstr(gow5,"d")!=0 || strstr(gow5,"√∫ltimo lugar")!=0){
 					  	
 					  	int v2,w2;
          	int tilemap24[height][width]={
@@ -1268,7 +1268,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap24[v2][w2]==2){
-			    printf("\t\t\tisso n„o È bom\n");
+			    printf("\t\t\tisso n√£o √© bom\n");
 		 } 	
          	  else if(tilemap24[v2][w2]==3){
          	  	printf("\t");
@@ -1295,7 +1295,7 @@ int main(){
 
 	  if(strcmp(resposta,"c")==0 || strcmp(resposta,"unreal engine")==0){
 	  	system("color 8F");
-	  	printf("vocÍ quer saber o que È Unreal Engine ?:\na)sim\nb)n„o\n");
+	  	printf("voc√™ quer saber o que √© Unreal Engine ?:\na)sim\nb)n√£o\n");
 	  	 gets(unreal);
 	  	if(strstr(unreal,"sim")!=0 || strstr(unreal,"a")!=0){
 	  		
@@ -1319,7 +1319,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap25[x2][y2]==2){
-			    printf("… um conjunto de ferramentas que tem como objetivo um r·pido e f·cil \n\tdesenvolvimento do jogo, e serve para que o programador n„o precise \n\ttocar no cÛdigo.\n");
+			    printf("√â um conjunto de ferramentas que tem como objetivo um r√°pido e f√°cil \n\tdesenvolvimento do jogo, e serve para que o programador n√£o precise \n\ttocar no c√≥digo.\n");
 		 } 	
          	  else if(tilemap25[x2][y2]==3){
          	  	printf("\t");
@@ -1336,7 +1336,7 @@ int main(){
 	  		
 	  	}
 	  	
-	  	else if(strstr(unreal,"n„o")!=0 || strstr(unreal,"b")!=0){
+	  	else if(strstr(unreal,"n√£o")!=0 || strstr(unreal,"b")!=0){
 	  		
 	  		int z2,a3;
          	int tilemap26[height][width]={
@@ -1375,7 +1375,7 @@ int main(){
 	  			
 		  }
 		  
-		printf("vocÍ quer saber quais ferramentas que Unreal Engine usa?:\na)sim\nb)n„o\n");  
+		printf("voc√™ quer saber quais ferramentas que Unreal Engine usa?:\na)sim\nb)n√£o\n");  
 		 gets(unreal2);
 		  if(strstr(unreal2,"sim")!=0 || strstr(unreal,"a")!=0){
 		  	
@@ -1399,7 +1399,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap27[b3][c3]==2){
-			    printf("Unreal Engine fornecce ferramentas para a criaÁ„o de personagens, \n\tarmas, cen·rios e a programaÁ„o da inteligencia artificial dos NPCs.\n");
+			    printf("Unreal Engine fornecce ferramentas para a cria√ß√£o de personagens, \n\tarmas, cen√°rios e a programa√ß√£o da inteligencia artificial dos NPCs.\n");
 		 } 	
          	  else if(tilemap27[b3][c3]==3){
          	  	printf("\t");
@@ -1416,7 +1416,7 @@ int main(){
 		  	
 		  }
 		  
-		  else if(strstr(unreal2,"n")!=0 || strstr(unreal2,"b")!=0 || strstr(unreal2,"n„o")!=0){
+		  else if(strstr(unreal2,"n")!=0 || strstr(unreal2,"b")!=0 || strstr(unreal2,"n√£o")!=0){
 		  	
 		  	int d3,e3;
          	int tilemap28[height][width]={
@@ -1455,7 +1455,7 @@ int main(){
 		  		
 		  }
 		
-		printf("vocÍ quer saber sobre as versıes do Unreal Engine?:\na)sim\nb)n„o\n");  
+		printf("voc√™ quer saber sobre as vers√µes do Unreal Engine?:\na)sim\nb)n√£o\n");  
 		 gets(unreal3);
 		  if(strstr(unreal3,"sim")!=0 || strstr(unreal,"a")!=0){
 		  	
@@ -1494,7 +1494,7 @@ int main(){
 			printf("\n");  	
 		 }
 		  	
-		  	printf("quer que eu te fale a vers„o atual do Unreal Engine?:\na)sim\nb)n„o\n");
+		  	printf("quer que eu te fale a vers√£o atual do Unreal Engine?:\na)sim\nb)n√£o\n");
 		     gets(unreal4);
 			if(strstr(unreal4,"sim")!=0 || strstr(unreal4,"a")!=0){
 				
@@ -1518,7 +1518,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap30[h3][i3]==2){
-			    printf("Unreal Engine est· na sua quarta vers„o , atualizada e com uma melhor \n\tutilidade.\n");
+			    printf("Unreal Engine est√° na sua quarta vers√£o , atualizada e com uma melhor \n\tutilidade.\n");
 		 } 	
          	  else if(tilemap30[h3][i3]==3){
          	  	printf("\t");
@@ -1574,7 +1574,7 @@ int main(){
 		  		
 		  }
 		  
-            printf("quer saber sobre a primeira vers„o do Unreal Engine?:\na)sim\nb)n„o\n");
+            printf("quer saber sobre a primeira vers√£o do Unreal Engine?:\na)sim\nb)n√£o\n");
             	gets(unreal5);
               if(strstr(unreal5,"sim")!=0 || strstr(unreal5,"a")!=0){
               	
@@ -1599,7 +1599,7 @@ int main(){
 			   }	
          	  else if(tilemap32[l3][m3]==2){
          	  	//checa pq tem 2
-			    printf("A primeira vers„o, lanÁada em 1998, possuÌa recursos gr·ficos, \n\tinteligÍncia artificial e utilizava-se linguagem scripts(Foi \n\tlanÁada com jogo de tiro).\n");
+			    printf("A primeira vers√£o, lan√ßada em 1998, possu√≠a recursos gr√°ficos, \n\tintelig√™ncia artificial e utilizava-se linguagem scripts(Foi \n\tlan√ßada com jogo de tiro).\n");
 		 } 	
          	  else if(tilemap32[l3][m3]==3){
          	  	printf("\t");
@@ -1615,7 +1615,7 @@ int main(){
 	} 
 			  }
 			  
-			  else if(strstr(unreal5,"n")!=0 || strstr(unreal,"b")!=0 || strstr(unreal,"n„o")!=0){
+			  else if(strstr(unreal5,"n")!=0 || strstr(unreal,"b")!=0 || strstr(unreal,"n√£o")!=0){
 			  	
 			  	int n3,o3;
          	int tilemap33[height][width]={
@@ -1654,7 +1654,7 @@ int main(){
 			  	
 			  }	
 			
-			printf("quer saber sobre a segunda vers„o do Unreal Engine?:\na)sim\nb)n„o\n");
+			printf("quer saber sobre a segunda vers√£o do Unreal Engine?:\na)sim\nb)n√£o\n");
 			 gets(unreal6);
 			 if(strstr(unreal6,"sim")!=0 || strstr(unreal6,"a")!=0){
 			 	
@@ -1678,7 +1678,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap34[p3][q3]==2){
-			   printf("A segunda vers„o, em 2002, foi atualizada e teve seus \n\trecursos gr·ficos reescritos(sucesso no game America's \n\tArmy).\n");
+			   printf("A segunda vers√£o, em 2002, foi atualizada e teve seus \n\trecursos gr√°ficos reescritos(sucesso no game America's \n\tArmy).\n");
 		 } 	
          	  else if(tilemap34[p3][q3]==3){
          	  	printf("\t");
@@ -1695,7 +1695,7 @@ int main(){
 			
 			 }
 			
-			 else if(strstr(unreal6,"n")!=0 || strstr(unreal6,"b")!=0 || strstr(unreal,"n„o")!=0){
+			 else if(strstr(unreal6,"n")!=0 || strstr(unreal6,"b")!=0 || strstr(unreal,"n√£o")!=0){
 			 	
 			 	int r3,s3;
          	int tilemap35[height][width]={
@@ -1734,7 +1734,7 @@ int main(){
 			 	
 			 }
 			
-			printf("quer saber sobre a terceira vers„o do Unreal Engine?:\na)sim\nb)n„o\n");
+			printf("quer saber sobre a terceira vers√£o do Unreal Engine?:\na)sim\nb)n√£o\n");
 			 gets(unreal7);	
 			  if(strstr(unreal7,"sim")!=0 || strstr(unreal7,"a")!=0){
 			  	
@@ -1758,7 +1758,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap36[t3][u3]==2){
-			    printf("Com a terceira vers„o, em 2005, houve uma inserÁ„o de efeitos gr·ficos \n\te de um sistema de sombras e iluminaÁ„o, que seria feita por pixels ao \n\tinvÈs de vetores (Estreia no jogo Gears of war).\n");	
+			    printf("Com a terceira vers√£o, em 2005, houve uma inser√ß√£o de efeitos gr√°ficos \n\te de um sistema de sombras e ilumina√ß√£o, que seria feita por pixels ao \n\tinv√©s de vetores (Estreia no jogo Gears of war).\n");	
 		 } 	
          	  else if(tilemap36[t3][u3]==3){
          	  	printf("\t");
@@ -1775,7 +1775,7 @@ int main(){
 		 
 			  }
 			
-			 else if(strstr(unreal7,"n")!=0 || strstr(unreal7,"b")!=0 || strstr(unreal7,"n„o")!=0){
+			 else if(strstr(unreal7,"n")!=0 || strstr(unreal7,"b")!=0 || strstr(unreal7,"n√£o")!=0){
 			 	
 			 	int v3,w3;
          	int tilemap37[height][width]={
@@ -1814,7 +1814,7 @@ int main(){
 			 	
 			 }
 			 
-			printf("quer saber sobre a quarta vers„o do Unreal Engine?:\na)sim\nb)n„o\n"); 
+			printf("quer saber sobre a quarta vers√£o do Unreal Engine?:\na)sim\nb)n√£o\n"); 
 			  gets(unreal8);
 			   if(strstr(unreal8,"sim")!=0 || strstr(unreal8,"a")!=0){
 			   	
@@ -1838,7 +1838,7 @@ int main(){
          	  	printf("________________________________________________________________________________");
 			   }	
          	  else if(tilemap38[x3][y3]==2){
-			    printf("A evoluÌda quarta vers„o, lanÁada em 2014, teve um visual cinematografico aplicado e uma iluminaÁ„o global utilizando voxel cone tracing, dando realismo aos jogos. AlÈm da parte do design, houve mudanÁas nos algoritmos para que o funcionamento do jogo n„o seja prejudicado e tambÈm, em prol dos programadores, mudanÁas como a reduÁ„o do tempo do processo de iteraÁao e a persimiss„o de atualizar o cÛdigo C enquanto o motor esta em funcionamento, facilit·ram o trabalho dos desenvolvedores.\n");
+			    printf("A evolu√≠da quarta vers√£o, lan√ßada em 2014, teve um visual cinematografico aplicado e uma ilumina√ß√£o global utilizando voxel cone tracing, dando realismo aos jogos. Al√©m da parte do design, houve mudan√ßas nos algoritmos para que o funcionamento do jogo n√£o seja prejudicado e tamb√©m, em prol dos programadores, mudan√ßas como a redu√ß√£o do tempo do processo de itera√ßao e a persimiss√£o de atualizar o c√≥digo C enquanto o motor esta em funcionamento, facilit√°ram o trabalho dos desenvolvedores.\n");
 		 } 	
          	  else if(tilemap38[x3][y3]==3){
          	  	printf("\t");
@@ -1855,7 +1855,7 @@ int main(){
 			   	
 			   }
 			   
-			   else if(strstr(unreal8,"n")!=0 || strstr(unreal8,"b")!=0 || strstr(unreal8,"n„o")!=0){
+			   else if(strstr(unreal8,"n")!=0 || strstr(unreal8,"b")!=0 || strstr(unreal8,"n√£o")!=0){
 			   	
 			   	int z3,a4;
          	int tilemap39[height][width]={
@@ -1895,7 +1895,7 @@ int main(){
 			   }
 			 }
 			 
-			 else if(strstr(unreal3,"n")!=0 || strstr(unreal3,"b")!=0 || strstr(unreal3,"n„o")!=0){
+			 else if(strstr(unreal3,"n")!=0 || strstr(unreal3,"b")!=0 || strstr(unreal3,"n√£o")!=0){
 			 	
 			 	int b4,c4;
          	int tilemap40[height][width]={
@@ -1938,9 +1938,9 @@ int main(){
 }
 
   
- printf("voÁÍ quer continuar?:\na)s\nb)n\n");
+ printf("vo√ß√™ quer continuar?:\na)s\nb)n\n");
   scanf("%c",&continuar);
-  printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+  printf("\n\n");
  getchar();
 }
  while(continuar != 'n' && continuar != 'N' && continuar != 'b' && continuar != 'B');
